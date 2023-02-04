@@ -1,0 +1,95 @@
+body{
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1{
+    text-align: center;
+    margin: 5rem 0 2rem 0;
+    color: #FCE2DB;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+}
+
+i{
+    font-weight: lighter;
+    font-size: 60px;
+    color: #FCE2DB;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.up{
+    margin-top: 3rem;
+}
+
+.entity{
+    background-color: rgb(17, 17, 17);
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 3rem;
+}
+
+.entity:hover{
+    background-color: rgb(22, 22, 22);
+}
+
+.entity-text{
+    color: #FCE2DB;
+    margin: 6rem 0;
+    font-size: 1.3rem;
+}
+
+.footer{
+    color: #FCE2DB; 
+    margin-top: auto;
+    text-align: center;
+}
+
+.footer p{
+    margin-top: 2rem;
+}
+
+.cacl{
+    margin-top:5.5rem;
+}
+
+.left{
+    text-align: left;
+}
+.inp-box{
+    margin-bottom: 3rem;
+}
+
+input{
+    border-radius: 7px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+option:disabled, option[disabled] {
+    color: rgb(170, 169, 169);
+}
+
+.resHome{
+    margin-bottom: 2rem;
+}
+
+.error{
+    text-align: center;
+    margin: 5rem 0 2rem 0;
+    color: #FCE2DB;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+}
+
+.error>form{
+    margin-top: 7.5rem;
+}
